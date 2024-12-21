@@ -1,0 +1,15 @@
+/* FONTS */
+@font-face {
+  font-family: 'afacad-regular';
+  src: local('afacad'), url('../fonts/afacad/Afacad-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'afacad-bold';
+  src: local('afacadBold'), url('../fonts/afacad/Afacad-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'abel';
+  src: local('abel'), url('../fonts/abel/Abel-Regular.ttf') format('truetype');
+}
+/* COLORS */
+/*# sourceMappingURL=config.css.map */

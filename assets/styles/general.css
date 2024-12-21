@@ -1,0 +1,30 @@
+/* FONTS */
+@font-face {
+  font-family: 'afacad-regular';
+  src: local('afacad'), url('../fonts/afacad/Afacad-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'afacad-bold';
+  src: local('afacadBold'), url('../fonts/afacad/Afacad-Bold.ttf') format('truetype');
+}
+/* COLORS */
+html {
+  font-size: 10px;
+  touch-action: manipulation;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+div {
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=general.css.map */
