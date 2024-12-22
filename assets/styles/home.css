@@ -91,6 +91,7 @@ body ul.fc-pagination li.active {
 }
 body header {
   background: url(../images/general/header.png) center / cover no-repeat;
+  mix-blend-mode: lighten;
 }
 body header .fc-header-content nav {
   display: flex;
@@ -115,6 +116,7 @@ body header .fc-header-content nav .fc-navbar-logo a {
 }
 body header .fc-header-content nav .fc-navbar-logo a img {
   width: 6.5rem;
+  object-fit: cover;
 }
 body header .fc-header-content nav .fc-navbar-logo a h1 {
   color: #ffffff;
@@ -183,8 +185,8 @@ body header .fc-header-content .fc-header-page-title h5 {
   font-weight: 500;
 }
 body main {
-  background-color: #040406;
-  margin: -0.5rem 0;
+  background: rgba(0, 0, 0, 0.15);
+  margin-top: 0;
 }
 body main .fc-previous-winners {
   background-color: #14133D;
@@ -236,6 +238,7 @@ body main .fc-previous-winners:before {
 }
 body footer {
   background: url(../images/general/footer.png) center / cover no-repeat #040406;
+  margin-top: -3px;
 }
 body footer .fc-footer-content .fc-footer {
   display: flex;
@@ -511,6 +514,7 @@ main .fc-home-htp .fc-home-htp-intro .fc-home-htp-image-box {
 main .fc-home-htp .fc-home-htp-intro .fc-home-htp-image-box img {
   width: 100%;
   object-fit: contain;
+  mix-blend-mode: lighten;
 }
 main .fc-home-htp .fc-home-htp-steps {
   display: flex;
@@ -610,7 +614,7 @@ main .fc-home-prize-funds .fc-home-prize-funds-message {
   margin-top: 2rem;
 }
 main .fc-home-last-news {
-  background: url(../images/home/last-news.png) center / cover no-repeat;
+  background: url(../images/home/last-news.png) bottom / cover no-repeat;
 }
 main .fc-home-last-news .fc-home-last-news-content {
   display: flex;
