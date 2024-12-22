@@ -324,6 +324,9 @@ body footer .fc-footer-content h4.fc-footer-rights {
   html {
     font-size: 9px;
   }
+  body header {
+    mix-blend-mode: unset;
+  }
   body header .fc-header-content {
     padding-top: 14rem;
   }
